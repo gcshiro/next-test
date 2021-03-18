@@ -1,8 +1,7 @@
-import Layout from '../components/Layout'
 import Head from "next/head";
 
 const IndexPage = () => (
-  <Layout title="Home | Next.js + TypeScript Example">
+  <div>
     <Head>
       <meta charSet="utf-8" />
       <title>OGPテスト</title>
@@ -14,13 +13,13 @@ const IndexPage = () => (
       <meta property="og:image" content="" />
       <meta property="og:site_name" content="github.com/" />
     </Head>
-    <h1>Hello POCKET OGPテスト</h1>
+    <h1>Hello POCKET OGPテスト 1</h1>
     <p>
       <a href="http://getpocket.com/edit?url=https://gcshiro.github.io/next-test/&title=OGPテストです。これはタイトルとは違います。" rel="nofollow" target="_blank">
         Pocket
       </a>
     </p>
-  </Layout>
+  </div>
 )
 
 export default IndexPage
