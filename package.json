@@ -3,11 +3,9 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
-    "build": "next build",
+    "build": "next build && next export -o docs",
     "start": "next start",
-    "tsc": "tsc",
-    "export": "next export -o docs",
-    "deploy": "npm-run-all build export"
+    "tsc": "tsc"
   },
   "dependencies": {
     "next": "latest",
