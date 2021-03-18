@@ -6,7 +6,7 @@
     "build": "next build",
     "start": "next start",
     "tsc": "tsc",
-    "export": "next export"
+    "export": "next export -o docs"
   },
   "dependencies": {
     "next": "latest",
