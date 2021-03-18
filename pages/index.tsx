@@ -4,7 +4,7 @@ const IndexPage = () => (
   <div>
     <Head>
       <meta charSet="utf-8" />
-      <title>OGPテスト</title>
+      <title>POCKET OGPテスト6</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta property="og:title" content="OGPテスト" />
       <meta property="og:description" content="next/ogpテストです。github pagesにて確認" />
@@ -13,9 +13,9 @@ const IndexPage = () => (
       <meta property="og:image" content="" />
       <meta property="og:site_name" content="github.com/" />
     </Head>
-    <h1>POCKET OGPテスト 5</h1>
+    <h1>POCKET OGPテスト6</h1>
     <p>
-      <a href="http://getpocket.com/edit?url=https://gcshiro.github.io/next-test&title=OGPテストです。これはタイトルとは違います。" rel="nofollow" target="_blank">
+      <a href="http://getpocket.com/edit?url=https://gcshiro.github.io/next-test&title=POCKET OGPテスト6" rel="nofollow" target="_blank">
         Pocket
       </a>
     </p>
